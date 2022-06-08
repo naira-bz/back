@@ -1,0 +1,261 @@
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: end
+  examples: |
+    - that's all
+    - Yeah, that's it
+    - thats it
+    - It's all folks
+    - I guess that's it
+    - I guess that's all
+    - Yep, I think it's all
+    - Done, nothing more
+    - Thank you
+
+
+- intent: symptom
+  examples: |
+    - I have fever
+    - My head is paining
+    - I have a headache
+    - dizziness
+    - I've been coughing
+    - I'm exhuasted
+    - I have fatigue
+    - back pain
+    - stomach pain
+    - I feel dizzy
+    - Dizziness is what I got
+    - uncoordination
+    - fever
+    - pleuritic pain
+    - snuffle
+    - throat sore
+    - malaise
+    - debilitation
+    - symptom aggravating factors
+    - chill
+    - scleral icterus
+    - nasal flaring
+    - dysuria
+    - lip smacking
+    - headache
+    - sneeze
+    - snore
+    - green sputum
+    - short of breath
+    - distress respiratory
+    - blackout
+    - extreme exhaustion
+    - heme positive
+    - abdominal pain
+    - vomiting
+    - disequilibrium
+    - nausea
+    - intoxication
+    - haemorrhage
+    - guaiac positive
+    - body weight decrease
+    - sore to touch
+    - pain
+    - chest pain
+    - sweat increase
+    - pressure chest
+    - syncope
+    - numbness
+    - chest discomfort
+    - shortof breath
+    - segment depression
+    - worry
+    - bradycardia
+    - dyspnea
+    - seizure
+    - hypermetabolism
+    - aura
+    - muscle twitch
+    - drowsy
+    - tremor
+    - unresponsiveness
+    - hemiplegia
+    - myoclonus
+    - gurgle
+    - sleepy
+    - lethargy
+    - hypotension
+    - lightheadedness
+    - unwell
+    - mental status changes
+    - sensory discomfort
+    - dizzy
+    - profuse sweating
+    - diarrhea
+    - anemia
+    - muscle pain
+    - convulsion
+    - coma
+    - bloody stools.chills
+    - poor appetite
+    - weakness
+    - intestinal bleeding
+    - cough
+    - constipation
+    - side pain
+    - proststism
+    - sniffle
+    - vertigo
+    - numb hand
+    - out of breath
+    - wheezing
+    - tight chest
+    - sedentry
+    - angina pectoris
+    - unhappy
+    - hypothermia
+    - hypoxemia
+    - tender renal angle
+    - hematuria
+    - orthopnea
+    - fatigue
+    - exertion
+    - venous distention
+    - impaired cognition
+    - tachypnea
+    - sinus
+    - unsteadyness
+    - bruit
+    - lesion
+    - difficulty passing urine
+    - monoclonal
+    - tumor cell invasion
+    - pallor
+    - asthenia
+    - orthostatis
+    - swelling
+    - exhaustion
+    - ascites
+    - rupture of membranes
+    - pruritis
+    - anorexia
+    - transaminitis
+    - fremitus
+    - papaparesis
+    - hunger
+    - apyrexial
+    - nervousness
+    - feeling suicidal
+    - feeling hopeless
+    - weepiness
+    - sleeplessness
+    - irritable mood
+    - agitation
+    - nightmare
+    - unable to concentrate
+    - short of breadth
+    - rale
+    - ronchus
+    - haemoptysis
+    - fall
+    - distended abdomen
+    - unsteady gait
+    - paresthesia
+    - burning sensation
+    - chest lightness
+    - night sweat
+    - stridor
+    - stuffy nose
+    - egophony
+    - frail
+    - nasal discharge
+    - cystic lesion
+    - atypia
+    - unsteadiness
+    - polydypsia
+    - ambidexterity
